@@ -37,7 +37,7 @@ main {
     height: calc(100vh - 161px);
     margin:0;
 }
-aside1 {
+.aside1 {
     flex: 1;
     background-color: #ffa200;
     padding: 15px;
@@ -46,6 +46,9 @@ aside1 {
     flex-grow: 1;
     height: calc(100vh - 161px);
     margin:0;
+}
+.aside1 ul li {
+    margin-bottom: 10px;
 }
 aside {
     flex: 1;
